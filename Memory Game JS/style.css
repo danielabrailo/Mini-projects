@@ -1,0 +1,15 @@
+body {
+  background-image: linear-gradient(
+    to right,
+    rgb(113, 104, 230),
+    rgb(241, 241, 103)
+  );
+}
+
+.grid {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 5px;
+  height: 300px;
+  width: 400px;
+}
