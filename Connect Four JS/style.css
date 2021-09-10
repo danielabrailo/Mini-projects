@@ -1,0 +1,41 @@
+body {
+  background-image: linear-gradient(
+    to right,
+    rgb(240, 97, 97),
+    rgb(130, 130, 233)
+  );
+}
+
+.grid {
+  border: 2px solid;
+  height: 240px;
+  width: 280px;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.grid div {
+  height: 40px;
+  width: 40px;
+  cursor: pointer;
+}
+
+.player-one {
+  background-color: red;
+  border-radius: 10px;
+}
+
+.player-two {
+  background-color: blue;
+  border-radius: 10px;
+}
+
+button {
+  color: black;
+  background-color: #4caf50;
+  cursor: pointer;
+}
+
+h2 {
+  color: rgb(142, 226, 59);
+}
