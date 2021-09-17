@@ -1,0 +1,38 @@
+body {
+  background-image: url("img.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: white;
+}
+
+.grid {
+  display: flex;
+  flex-wrap: wrap;
+  border: solid;
+  width: 300px;
+  height: 300px;
+}
+
+.grid div {
+  width: 20px;
+  height: 20px;
+}
+
+.shooter {
+  background-color: rgb(98, 141, 204);
+}
+
+.invader {
+  background-color: rgb(4, 124, 4);
+  border-radius: 10px;
+}
+
+.boom {
+  background-color: red;
+  border-radius: 10px;
+}
+
+.laser {
+  background-color: rgb(224, 119, 33);
+  border-radius: 20px;
+}
