@@ -2,6 +2,16 @@ body {
   background-image: url("frog.jpg");
   background-size: cover;
   color: white;
+  font-family: "Rubik", sans-serif;
+}
+
+button {
+  padding: 5px;
+}
+
+#text {
+  background-color: grey;
+  padding: 5px;
 }
 
 .grid {
